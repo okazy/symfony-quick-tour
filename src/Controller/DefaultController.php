@@ -14,4 +14,12 @@ class DefaultController
     {
         return new Response("Hello $name!");
     }
+
+    /**
+     * @Route("/simplicity")
+     */
+    public function simple()
+    {
+        return new Response('Simple! Easy! Great!');
+    }
 }
